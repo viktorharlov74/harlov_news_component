@@ -1,0 +1,159 @@
+a,span,p,div, ::after, ::before {
+    box-sizing: border-box !important;
+}
+
+.headNews{
+	
+	text-overflow: ellipsis;
+	font-size: 16px;
+
+
+}
+a.headNews{
+	font-size: 16px;
+
+	text-decoration: none;
+	color: black;
+	margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    line-height: 16px;
+
+}
+
+.head-news{
+	max-height: 65px;
+	overflow: hidden;
+	padding: 0px 10px;
+	text-overflow: ellipsis;
+	line-height: 16px;
+}
+
+.prevue{
+	width: 100%;
+	max-height: 85px;
+	overflow: hidden;
+	padding: 0px 10px;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	line-height: 12px;
+}
+.buton-span{
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial;
+}
+.prev-text{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"  !important;
+	font-size: 12px;
+	line-height: 12px;
+	text-overflow: ellipsis;
+	margin-bottom: 0;
+}
+
+.button-color{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+
+}
+
+.button-color:hover {
+    color: #e8e8ec;
+    background-color: #4291e6;
+    border-color: #4291e6;
+}
+
+.btn.button-color{
+	text-align: left;
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+	margin-left: 10px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+
+}
+
+.img-news{
+	max-height: 220px;
+	overflow: hidden;
+}
+
+.img-news img{
+	background-color: grey;
+}
+.date-start
+{
+	padding: 0px 10px;
+	font-size: 12px;
+}
+.next_pagination,.pagination--2 li a {
+    border: 1px solid #e1e1e1;
+    display: block;
+    text-align: center;
+    line-height: 43px;
+    height: 45px;
+    cursor: pointer;
+    width: 45px;
+    text-decoration: none;
+}
+.next_pagination:hover,.pagination--2 li:hover a, .pagination--2 li.active a {
+	border: 1px solid #e1e1e1;
+    color: #0e0e0e;
+    background: #b8c9f9;
+}
+.pagination li {
+    margin-right: 20px;
+}
+.pagination {
+	width: 100%;
+	overflow: hidden;
+}
+.visible-paginathion{
+	display: block;
+}
+
+.hide-paginathion{
+	display: none;
+}
+
+@media screen and (max-width: 576px)
+{
+	
+	.prevue{
+		max-height: 85px;
+	}
+	.img-news{
+		max-height: 250px;
+	}
+	.pagination {
+		width: 95%;
+		padding: 0px 5px;
+	}
+	.next_pagination,.pagination--2 li a {
+	    border: 1px solid #e1e1e1;
+
+	    text-align: center;
+	    line-height: 38px;
+	    height: 40px;
+	    cursor: pointer;
+	    width: 40px;
+	}
+	.pagination li {
+ 	  margin-right: 10px;
+	}
+
+}
+
+@media screen and (max-width: 340px)
+{
+		.next_pagination,.pagination--2 li a {
+	    border: 1px solid #e1e1e1;
+
+	    text-align: center;
+	    line-height: 28px;
+	    height: 30px;
+	    cursor: pointer;
+	    width: 30px;
+	}
+}
